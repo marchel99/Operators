@@ -6,6 +6,7 @@ int main() {
 
 
 
+
    unsigned char c = a & b;
    printf("a & b = %d\n", c);
 
