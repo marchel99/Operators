@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-   unsigned int a = 0010;
-   unsigned int b = 1000;
-                       1
+   unsigned int a = 0b0010;
+   unsigned int b = 0b1000;
+                       
 
 
 
