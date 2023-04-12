@@ -5,16 +5,8 @@ void funL();
 int main()
 {
 
-typedef void (*pf)();
-pf myFunctions[]={funW,funL};
-
-
-
-
-
-
-
-
+    typedef void (*pf)();
+    pf myFunctions[] = {funW, funL};
 
     typedef struct
     {
@@ -37,8 +29,6 @@ pf myFunctions[]={funW,funL};
     printf("%d %d \n ", ptr_myStruct->a, ptr_myStruct->b);
 
     (ptr_myStruct->a == ptr_myStruct->b) ? funW() : funL(); // !!!
-
-
 
     return 0;
 }
