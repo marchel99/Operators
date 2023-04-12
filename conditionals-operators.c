@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void funW();
+void funL();
 int main()
 {
     typedef struct
@@ -22,5 +24,18 @@ int main()
 
     printf("%d %d \n ", ptr_myStruct->a, ptr_myStruct->b);
 
+    (ptr_myStruct->a == ptr_myStruct->b) ? funW() : funL(); // !!!
+
     return 0;
+}
+
+void funW()
+{
+
+    printf("PRAWDA\n");
+}
+
+void funL()
+{
+    printf("FALSZ\n");
 }
