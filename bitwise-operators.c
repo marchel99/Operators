@@ -17,7 +17,6 @@ int main() {
     
    unsigned int a = 0b0010;
    unsigned int b = 0b1000;
-                       
 
    // Bitwise AND operator
    unsigned int c =  a&b ;
@@ -47,10 +46,19 @@ int main() {
    // Left shift operator
    unsigned int g = a << 2;
    printf("a << 2 = %d\n", g);
+   printBinary(g);  
+        clear();
+
+
 
    // Right shift operator
    unsigned int h = b >> 2;
    printf("b >> 2 = %d\n", h);
+ printBinary(h);  
+        clear();
+
+
+
 
    return 0;
 }
