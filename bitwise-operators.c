@@ -4,9 +4,12 @@ int main() {
    unsigned char a = 0x0F;
    unsigned char b = 0x0F;
 
-   // Bitwise AND operator
+
+
    unsigned char c = a & b;
    printf("a & b = %d\n", c);
+
+
 
    // Bitwise OR operator
    unsigned char d = a | b;
