@@ -54,7 +54,7 @@ int main()
      clear();
 
      // a=0000 1100 before change
-     // a=0000 0011 after change
+     // a=0000 0010 after change
      // Right shift operator
      unsigned int h = b >> 2;
      printf("b >> 2 = %d\n", h);
