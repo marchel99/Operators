@@ -1,1 +1,1 @@
- (ptr_myStruct->a == ptr_myStruct->b)?  funW(); : funL();
+funW()
