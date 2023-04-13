@@ -8,7 +8,7 @@ int main()
     typedef void (*pf)();
     pf myFunctions[] = {funW, funL};
 
-r    typedef struct
+    typedef struct
     {
         int a;
         int b;
